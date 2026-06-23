@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420">
+<style>.bg{fill:#f7f8fb}.card{fill:white;stroke:#d8dde8;stroke-width:1}.title{font:700 24px Arial,sans-serif;fill:#172033}.sub{font:400 14px Arial,sans-serif;fill:#526071}.label{font:400 15px Arial,sans-serif;fill:#253044}.metric{font:700 25px Arial,sans-serif;fill:#172033}</style>
+<rect class="bg" width="760" height="420"/>
+<rect class="card" x="24" y="24" width="712" height="372" rx="8"/>
+<text x="48" y="62" class="title">No Dashboard Timing Breakdown</text>
+<text x="48" y="88" class="sub">CSI ov5647 640x480@58, final strong PTQ full-int8 model</text>
+<path d="M 180 190 L 180.00 70.00 A 120 120 0 1 1 137.80 302.34 Z" fill="#5577c6"/><path d="M 180 190 L 137.80 302.34 A 120 120 0 0 1 79.76 255.98 Z" fill="#4aa37b"/><path d="M 180 190 L 79.76 255.98 A 120 120 0 0 1 178.24 70.01 Z" fill="#d65f5f"/><path d="M 180 190 L 178.24 70.01 A 120 120 0 0 1 180.00 70.00 Z" fill="#9aa4b2"/>
+<circle cx="180" cy="190" r="64" fill="white"/>
+<text x="180" y="182" text-anchor="middle" class="metric">66.5 FPS</text>
+<text x="180" y="210" text-anchor="middle" class="sub">15.046 ms/frame</text>
+<rect x="360" y="99" width="16" height="16" fill="#5577c6"/><text x="386" y="112" class="label">camera read: 8.383 ms (55.7%)</text><rect x="360" y="133" width="16" height="16" fill="#4aa37b"/><text x="386" y="146" class="label">preprocess: 1.507 ms (10.0%)</text><rect x="360" y="167" width="16" height="16" fill="#d65f5f"/><text x="386" y="180" class="label">predict total: 5.120 ms (34.0%)</text><rect x="360" y="201" width="16" height="16" fill="#9aa4b2"/><text x="386" y="214" class="label">other: 0.035 ms (0.2%)</text>
+</svg>

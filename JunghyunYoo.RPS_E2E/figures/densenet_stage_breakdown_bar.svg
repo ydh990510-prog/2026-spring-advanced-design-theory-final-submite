@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="600" viewBox="0 0 1040 600">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">DenseNet121 stage latency breakdown</text>
+<text x="40" y="70" font-family="Arial, sans-serif" font-size="14" fill="#475569">Raw prefix differential latency, measured on Raspberry Pi with 4 TFLite threads</text>
+<text x="231" y="106" font-family="Arial, sans-serif" font-size="14" fill="#111827" text-anchor="end">Stem + pool1</text>
+<rect x="245" y="86" width="85.1" height="30" fill="#2563eb" rx="5"/>
+<text x="342.1" y="106" font-family="Arial, sans-serif" font-size="14" fill="#334155">0.277 ms / 4.3%</text>
+<text x="231" y="160" font-family="Arial, sans-serif" font-size="14" fill="#111827" text-anchor="end">Dense block 2</text>
+<rect x="245" y="140" width="301.7" height="30" fill="#16a34a" rx="5"/>
+<text x="558.7" y="160" font-family="Arial, sans-serif" font-size="14" fill="#334155">0.984 ms / 15.1%</text>
+<text x="231" y="214" font-family="Arial, sans-serif" font-size="14" fill="#111827" text-anchor="end">Transition 2</text>
+<rect x="245" y="194" width="70.4" height="30" fill="#f59e0b" rx="5"/>
+<text x="327.4" y="214" font-family="Arial, sans-serif" font-size="14" fill="#334155">0.229 ms / 3.5%</text>
+<text x="231" y="268" font-family="Arial, sans-serif" font-size="14" fill="#111827" text-anchor="end">Dense block 3</text>
+<rect x="245" y="248" width="466.1" height="30" fill="#dc2626" rx="5"/>
+<text x="723.1" y="268" font-family="Arial, sans-serif" font-size="14" fill="#334155">1.519 ms / 23.4%</text>
+<text x="231" y="322" font-family="Arial, sans-serif" font-size="14" fill="#111827" text-anchor="end">Transition 3</text>
+<rect x="245" y="302" width="71.0" height="30" fill="#7c3aed" rx="5"/>
+<text x="328.0" y="322" font-family="Arial, sans-serif" font-size="14" fill="#334155">0.232 ms / 3.6%</text>
+<text x="231" y="376" font-family="Arial, sans-serif" font-size="14" fill="#111827" text-anchor="end">Dense block 4</text>
+<rect x="245" y="356" width="610.0" height="30" fill="#0891b2" rx="5"/>
+<text x="867.0" y="376" font-family="Arial, sans-serif" font-size="14" fill="#334155">1.989 ms / 30.6%</text>
+<text x="231" y="430" font-family="Arial, sans-serif" font-size="14" fill="#111827" text-anchor="end">Transition 4</text>
+<rect x="245" y="410" width="89.0" height="30" fill="#db2777" rx="5"/>
+<text x="346.0" y="430" font-family="Arial, sans-serif" font-size="14" fill="#334155">0.290 ms / 4.5%</text>
+<text x="231" y="484" font-family="Arial, sans-serif" font-size="14" fill="#111827" text-anchor="end">Dense block 5</text>
+<rect x="245" y="464" width="263.5" height="30" fill="#65a30d" rx="5"/>
+<text x="520.5" y="484" font-family="Arial, sans-serif" font-size="14" fill="#334155">0.859 ms / 13.2%</text>
+<text x="231" y="538" font-family="Arial, sans-serif" font-size="14" fill="#111827" text-anchor="end">Final ReLU/GAP/head</text>
+<rect x="245" y="518" width="37.8" height="30" fill="#ea580c" rx="5"/>
+<text x="294.8" y="538" font-family="Arial, sans-serif" font-size="14" fill="#334155">0.123 ms / 1.9%</text>
+<line x1="245" y1="577" x2="855" y2="577" stroke="#cbd5e1"/>
+<line x1="245.0" y1="577" x2="245.0" y2="583" stroke="#cbd5e1"/>
+<text x="245.0" y="601" font-family="Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">0.0 ms</text>
+<line x1="397.5" y1="577" x2="397.5" y2="583" stroke="#cbd5e1"/>
+<text x="397.5" y="601" font-family="Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">0.5 ms</text>
+<line x1="550.0" y1="577" x2="550.0" y2="583" stroke="#cbd5e1"/>
+<text x="550.0" y="601" font-family="Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">1.0 ms</text>
+<line x1="702.5" y1="577" x2="702.5" y2="583" stroke="#cbd5e1"/>
+<text x="702.5" y="601" font-family="Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">1.5 ms</text>
+<line x1="855.0" y1="577" x2="855.0" y2="583" stroke="#cbd5e1"/>
+<text x="855.0" y="601" font-family="Arial, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">2.0 ms</text>
+</svg>

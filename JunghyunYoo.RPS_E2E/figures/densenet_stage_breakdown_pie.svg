@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">DenseNet121 stage latency share</text>
+<text x="40" y="75" font-family="Arial, sans-serif" font-size="14" fill="#475569">Total reference: 6.503 ms, Pi 4 threads, prefix differential</text>
+<path d="M 260.00 280.00 L 260.00 90.00 A 190.00 190.00 0 0 1 310.33 96.79 Z" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="275.7" y="163.3" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">4.3%</text>
+<path d="M 260.00 280.00 L 310.33 96.79 A 190.00 190.00 0 0 1 438.33 214.45 Z" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
+<text x="339.7" y="193.3" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">15.1%</text>
+<path d="M 260.00 280.00 L 438.33 214.45 A 190.00 190.00 0 0 1 448.38 255.27 Z" fill="#f59e0b" stroke="#ffffff" stroke-width="2"/>
+<path d="M 260.00 280.00 L 448.38 255.27 A 190.00 190.00 0 0 1 303.92 464.85 Z" fill="#dc2626" stroke="#ffffff" stroke-width="2"/>
+<text x="357.0" y="346.9" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">23.4%</text>
+<path d="M 260.00 280.00 L 303.92 464.85 A 190.00 190.00 0 0 1 261.80 469.99 Z" fill="#7c3aed" stroke="#ffffff" stroke-width="2"/>
+<path d="M 260.00 280.00 L 261.80 469.99 A 190.00 190.00 0 0 1 80.95 216.42 Z" fill="#0891b2" stroke="#ffffff" stroke-width="2"/>
+<text x="164.1" y="348.4" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">30.6%</text>
+<path d="M 260.00 280.00 L 80.95 216.42 A 190.00 190.00 0 0 1 105.53 169.37 Z" fill="#db2777" stroke="#ffffff" stroke-width="2"/>
+<text x="155.6" y="225.5" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">4.5%</text>
+<path d="M 260.00 280.00 L 105.53 169.37 A 190.00 190.00 0 0 1 237.41 91.35 Z" fill="#65a30d" stroke="#ffffff" stroke-width="2"/>
+<text x="200.0" y="178.6" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">13.2%</text>
+<path d="M 260.00 280.00 L 237.41 91.35 A 190.00 190.00 0 0 1 260.00 90.00 Z" fill="#ea580c" stroke="#ffffff" stroke-width="2"/>
+<rect x="530" y="117" width="18" height="18" fill="#2563eb" rx="3"/>
+<text x="558" y="130" font-family="Arial, sans-serif" font-size="15" fill="#111827">Stem + pool1</text>
+<text x="840" y="130" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">0.277 ms</text>
+<text x="920" y="130" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">4.3%</text>
+<rect x="530" y="155" width="18" height="18" fill="#16a34a" rx="3"/>
+<text x="558" y="168" font-family="Arial, sans-serif" font-size="15" fill="#111827">Dense block 2</text>
+<text x="840" y="168" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">0.984 ms</text>
+<text x="920" y="168" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">15.1%</text>
+<rect x="530" y="193" width="18" height="18" fill="#f59e0b" rx="3"/>
+<text x="558" y="206" font-family="Arial, sans-serif" font-size="15" fill="#111827">Transition 2</text>
+<text x="840" y="206" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">0.229 ms</text>
+<text x="920" y="206" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">3.5%</text>
+<rect x="530" y="231" width="18" height="18" fill="#dc2626" rx="3"/>
+<text x="558" y="244" font-family="Arial, sans-serif" font-size="15" fill="#111827">Dense block 3</text>
+<text x="840" y="244" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">1.519 ms</text>
+<text x="920" y="244" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">23.4%</text>
+<rect x="530" y="269" width="18" height="18" fill="#7c3aed" rx="3"/>
+<text x="558" y="282" font-family="Arial, sans-serif" font-size="15" fill="#111827">Transition 3</text>
+<text x="840" y="282" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">0.232 ms</text>
+<text x="920" y="282" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">3.6%</text>
+<rect x="530" y="307" width="18" height="18" fill="#0891b2" rx="3"/>
+<text x="558" y="320" font-family="Arial, sans-serif" font-size="15" fill="#111827">Dense block 4</text>
+<text x="840" y="320" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">1.989 ms</text>
+<text x="920" y="320" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">30.6%</text>
+<rect x="530" y="345" width="18" height="18" fill="#db2777" rx="3"/>
+<text x="558" y="358" font-family="Arial, sans-serif" font-size="15" fill="#111827">Transition 4</text>
+<text x="840" y="358" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">0.290 ms</text>
+<text x="920" y="358" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">4.5%</text>
+<rect x="530" y="383" width="18" height="18" fill="#65a30d" rx="3"/>
+<text x="558" y="396" font-family="Arial, sans-serif" font-size="15" fill="#111827">Dense block 5</text>
+<text x="840" y="396" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">0.859 ms</text>
+<text x="920" y="396" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">13.2%</text>
+<rect x="530" y="421" width="18" height="18" fill="#ea580c" rx="3"/>
+<text x="558" y="434" font-family="Arial, sans-serif" font-size="15" fill="#111827">Final ReLU/GAP/head</text>
+<text x="840" y="434" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">0.123 ms</text>
+<text x="920" y="434" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="end">1.9%</text>
+</svg>

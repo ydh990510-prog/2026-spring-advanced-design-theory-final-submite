@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="420" viewBox="0 0 1020 420">
+<rect width="100%" height="100%" fill="white"/>
+<text x="265.0" y="35" text-anchor="middle" font-size="20" font-weight="700">Strong Aug Base Training</text>
+<rect x="70" y="70" width="390" height="250" fill="#fbfbfb" stroke="#d8d8d8"/>
+<line x1="70" y1="320.0" x2="460" y2="320.0" stroke="#eeeeee"/>
+<text x="62" y="324.0" text-anchor="end" font-size="12" fill="#555">96%</text>
+<line x1="70" y1="201.0" x2="460" y2="201.0" stroke="#eeeeee"/>
+<text x="62" y="205.0" text-anchor="end" font-size="12" fill="#555">98%</text>
+<line x1="70" y1="81.9" x2="460" y2="81.9" stroke="#eeeeee"/>
+<text x="62" y="85.9" text-anchor="end" font-size="12" fill="#555">100%</text>
+<polyline points="70.0,197.0 100.0,117.5 130.0,155.9 160.0,147.7 190.0,134.0 220.0,147.7 250.0,144.9 280.0,117.5 310.0,123.0 340.0,131.2 370.0,136.7 400.0,109.3 430.0,117.5 460.0,109.3" fill="none" stroke="#1b7f79" stroke-width="3"/>
+<polyline points="70.0,81.9 100.0,81.9 130.0,81.9 160.0,81.9 190.0,81.9 220.0,81.9 250.0,81.9 280.0,81.9 310.0,81.9 340.0,81.9 370.0,81.9 400.0,81.9 430.0,81.9 460.0,81.9" fill="none" stroke="#c24a2c" stroke-width="3"/>
+<line x1="150" y1="360" x2="180" y2="360" stroke="#1b7f79" stroke-width="4"/><text x="188" y="365" font-size="13" fill="#333">train acc</text>
+<line x1="290" y1="360" x2="320" y2="360" stroke="#c24a2c" stroke-width="4"/><text x="328" y="365" font-size="13" fill="#333">val acc</text>
+<text x="265.0" y="348" text-anchor="middle" font-size="13" fill="#555">epoch</text>
+<text x="755.0" y="35" text-anchor="middle" font-size="20" font-weight="700">QAT TFLite Validation</text>
+<rect x="560" y="70" width="390" height="250" fill="#fbfbfb" stroke="#d8d8d8"/>
+<line x1="560" y1="320.0" x2="950" y2="320.0" stroke="#eeeeee"/>
+<text x="552" y="324.0" text-anchor="end" font-size="12" fill="#555">94%</text>
+<line x1="560" y1="239.4" x2="950" y2="239.4" stroke="#eeeeee"/>
+<text x="552" y="243.4" text-anchor="end" font-size="12" fill="#555">96%</text>
+<line x1="560" y1="158.7" x2="950" y2="158.7" stroke="#eeeeee"/>
+<text x="552" y="162.7" text-anchor="end" font-size="12" fill="#555">98%</text>
+<line x1="560" y1="78.1" x2="950" y2="78.1" stroke="#eeeeee"/>
+<text x="552" y="82.1" text-anchor="end" font-size="12" fill="#555">100%</text>
+<polyline points="560.0,196.7 582.9,181.8 605.9,92.9 628.8,122.5 651.8,92.9 674.7,92.9 697.6,107.7 720.6,107.7 743.5,107.7 766.5,92.9 789.4,92.9 812.4,92.9 835.3,92.9 858.2,107.7 881.2,92.9 904.1,92.9 927.1,92.9 950.0,92.9" fill="none" stroke="#4b6cb7" stroke-width="3"/>
+<polyline points="560.0,196.7 582.9,226.3 605.9,167.0 628.8,92.9 651.8,92.9 674.7,92.9 697.6,122.5 720.6,107.7 743.5,122.5 766.5,92.9 789.4,92.9 812.4,78.1 835.3,92.9 858.2,92.9 881.2,78.1 904.1,92.9 927.1,78.1 950.0,78.1" fill="none" stroke="#b88a00" stroke-width="3"/>
+<line x1="640" y1="360" x2="670" y2="360" stroke="#4b6cb7" stroke-width="4"/><text x="678" y="365" font-size="13" fill="#333">tflite val acc</text>
+<line x1="780" y1="360" x2="810" y2="360" stroke="#b88a00" stroke-width="4"/><text x="818" y="365" font-size="13" fill="#333">keras val acc</text>
+<text x="755.0" y="348" text-anchor="middle" font-size="13" fill="#555">epoch</text>
+</svg>

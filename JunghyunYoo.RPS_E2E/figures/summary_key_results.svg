@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <style>
+      .bg { fill: #f7f8fb; }
+      .card { fill: #ffffff; stroke: #d8dde8; stroke-width: 1.2; rx: 8; }
+      .title { font: 700 30px Arial, sans-serif; fill: #172033; }
+      .subtitle { font: 400 15px Arial, sans-serif; fill: #526071; }
+      .h2 { font: 700 18px Arial, sans-serif; fill: #172033; }
+      .metric { font: 700 38px Arial, sans-serif; fill: #172033; }
+      .small { font: 400 13px Arial, sans-serif; fill: #526071; }
+      .axis { stroke: #b7c0cf; stroke-width: 1; }
+      .grid { stroke: #e6eaf1; stroke-width: 1; }
+      .label { font: 400 12px Arial, sans-serif; fill: #344256; }
+      .value { font: 700 12px Arial, sans-serif; fill: #172033; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="720"/>
+  <text class="title" x="48" y="54">RPS On-Device AI Final Results</text>
+  <text class="subtitle" x="48" y="82">DenseNet121 transfer learning, quantization, Raspberry Pi real-time pipeline</text>
+
+  <rect class="card" x="48" y="114" width="336" height="142"/>
+  <text class="h2" x="72" y="146">Final Test Accuracy</text>
+  <text class="metric" x="72" y="196">273 / 273</text>
+  <text class="small" x="72" y="226">100.00% on held-out test split</text>
+
+  <rect class="card" x="432" y="114" width="336" height="142"/>
+  <text class="h2" x="456" y="146">Pi Invoke Latency</text>
+  <text class="metric" x="456" y="196">4.79 ms</text>
+  <text class="small" x="456" y="226">Full-int8 PTQ, TensorFlow/XNNPACK, 4 threads</text>
+
+  <rect class="card" x="816" y="114" width="336" height="142"/>
+  <text class="h2" x="840" y="146">Real-Time Pipeline</text>
+  <text class="metric" x="840" y="196">30 FPS</text>
+  <text class="small" x="840" y="226">USB UVC camera, 640x480@30, buffer size 4</text>
+
+  <rect class="card" x="48" y="288" width="528" height="376"/>
+  <text class="h2" x="72" y="322">Accuracy Progression</text>
+  <line class="axis" x1="106" y1="604" x2="536" y2="604"/>
+  <line class="axis" x1="106" y1="358" x2="106" y2="604"/>
+  <line class="grid" x1="106" y1="407" x2="536" y2="407"/>
+  <line class="grid" x1="106" y1="456" x2="536" y2="456"/>
+  <line class="grid" x1="106" y1="505" x2="536" y2="505"/>
+  <line class="grid" x1="106" y1="554" x2="536" y2="554"/>
+  <text class="label" x="68" y="362">100%</text>
+  <text class="label" x="75" y="607">97%</text>
+
+  <rect x="146" y="417" width="58" height="187" fill="#5577c6"/>
+  <rect x="252" y="388" width="58" height="216" fill="#4aa37b"/>
+  <rect x="358" y="388" width="58" height="216" fill="#f0a33a"/>
+  <rect x="464" y="358" width="58" height="246" fill="#d65f5f"/>
+  <text class="value" x="150" y="408">99.27</text>
+  <text class="value" x="256" y="379">99.63</text>
+  <text class="value" x="362" y="379">99.63</text>
+  <text class="value" x="471" y="349">100</text>
+  <text class="label" x="132" y="630">Baseline</text>
+  <text class="label" x="246" y="630">Aug</text>
+  <text class="label" x="340" y="630">QAT sweep</text>
+  <text class="label" x="443" y="630">Strong PTQ</text>
+
+  <rect class="card" x="624" y="288" width="528" height="376"/>
+  <text class="h2" x="648" y="322">Latency and Pipeline Budget</text>
+
+  <text class="label" x="648" y="368">Dynamic quant invoke</text>
+  <rect x="820" y="352" width="242" height="22" fill="#5577c6"/>
+  <text class="value" x="1072" y="369">8.99 ms</text>
+
+  <text class="label" x="648" y="410">Full-int8 PTQ invoke</text>
+  <rect x="820" y="394" width="135" height="22" fill="#4aa37b"/>
+  <text class="value" x="966" y="411">5.02 ms</text>
+
+  <text class="label" x="648" y="452">Final strong PTQ invoke</text>
+  <rect x="820" y="436" width="129" height="22" fill="#d65f5f"/>
+  <text class="value" x="960" y="453">4.79 ms</text>
+
+  <text class="label" x="648" y="506">Representative 33.33 ms frame budget</text>
+  <rect x="648" y="526" width="504" height="34" fill="#e5e9f1"/>
+  <rect x="648" y="526" width="196" height="34" fill="#6f83c7"/>
+  <rect x="844" y="526" width="24" height="34" fill="#70b984"/>
+  <rect x="868" y="526" width="75" height="34" fill="#d65f5f"/>
+  <rect x="943" y="526" width="206" height="34" fill="#f0a33a"/>
+  <text class="small" x="650" y="586">Camera wait/read 12.98 ms</text>
+  <text class="small" x="650" y="608">Preprocess 1.65 ms</text>
+  <text class="small" x="824" y="586">Invoke 4.98 ms</text>
+  <text class="small" x="824" y="608">Dashboard 13.59 ms</text>
+  <text class="small" x="648" y="636">Model got faster, but FPS is capped by camera cadence and UI drawing.</text>
+</svg>

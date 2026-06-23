@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="420" viewBox="0 0 860 420">
+<style>.bg{fill:#f7f8fb}.card{fill:white;stroke:#d8dde8;stroke-width:1}.title{font:700 24px Arial,sans-serif;fill:#172033}.sub{font:400 14px Arial,sans-serif;fill:#526071}.label{font:700 15px Arial,sans-serif;fill:#253044}.small{font:400 14px Arial,sans-serif;fill:#526071}</style>
+<rect class="bg" width="860" height="420"/>
+<rect class="card" x="24" y="24" width="812" height="372" rx="8"/>
+<text x="48" y="62" class="title">Pipeline Speed Comparison</text>
+<text x="48" y="88" class="sub">Blue/yellow bars: FPS, red bars: frame time. USB old dashboard is previous 30 FPS UVC baseline.</text>
+<text x="54" y="126" class="label">No dashboard</text><rect x="220" y="108" width="341" height="18" fill="#5577c6"/><text x="571" y="122" class="small">66.5 FPS</text><rect x="220" y="156" width="154" height="18" fill="#d65f5f"/><text x="384" y="170" class="small">15.05 ms/frame</text><text x="54" y="228" class="label">Dashboard draw</text><rect x="220" y="210" width="216" height="18" fill="#f0a33a"/><text x="446" y="224" class="small">42.1 FPS</text><rect x="220" y="258" width="244" height="18" fill="#d65f5f"/><text x="474" y="272" class="small">23.74 ms/frame</text><text x="54" y="330" class="label">USB old dashboard</text><rect x="220" y="312" width="154" height="18" fill="#9aa4b2"/><text x="384" y="326" class="small">30.0 FPS</text><rect x="220" y="360" width="342" height="18" fill="#d65f5f"/><text x="572" y="374" class="small">33.33 ms/frame</text>
+</svg>
