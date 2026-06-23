@@ -1,0 +1,88 @@
+[
+  {
+    "model": "RPS_PreTrained_SSD.tflite",
+    "model_path": "/home/dain/AI_assignment/models/RPS_PreTrained_SSD.tflite",
+    "backend": "tflite_runtime",
+    "file_size_bytes": 11498836,
+    "file_size_mb": 10.966144561767578,
+    "input_shape": [
+      1,
+      320,
+      320,
+      3
+    ],
+    "input_dtype": "float32",
+    "input_quantization": [
+      0.0,
+      0
+    ],
+    "output_shapes": [
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        10,
+        4
+      ],
+      [
+        1
+      ],
+      [
+        1,
+        10
+      ]
+    ],
+    "output_dtypes": [
+      "float32",
+      "float32",
+      "float32",
+      "float32"
+    ],
+    "output_quantization": [
+      [
+        0.0,
+        0
+      ],
+      [
+        0.0,
+        0
+      ],
+      [
+        0.0,
+        0
+      ],
+      [
+        0.0,
+        0
+      ]
+    ],
+    "warmup": 20,
+    "repeat": 300,
+    "mean_inference_ms": 67.99329712332717,
+    "median_inference_ms": 67.91047300066566,
+    "min_inference_ms": 67.52934500036645,
+    "max_inference_ms": 74.96923400140076,
+    "rss_mb_start": 85.65625,
+    "rss_mb_end": 85.890625,
+    "rss_mb_mean": 85.8351814516129,
+    "rss_mb_peak": 85.890625,
+    "vms_mb_mean": 124.54233870967742,
+    "vms_mb_peak": 124.546875,
+    "cpu_percent_total_mean": 24.97522516623024,
+    "process_cpu_percent_mean": 99.35383561111068,
+    "soc_temp_start_c": 57.3,
+    "soc_temp_end_c": 63.35,
+    "soc_temp_mean_c": 61.061290322580646,
+    "soc_temp_max_c": 65.55,
+    "pmic_temp_mean_c": null,
+    "pmic_temp_max_c": null,
+    "arm_clock_mhz_mean": 2400.0,
+    "throttled_any": false,
+    "undervoltage_any": false,
+    "get_throttled_raw": "0x0",
+    "metrics_note": "CPU, temperature, clock, and throttling values are power-related proxy metrics, not direct watt measurements.",
+    "benchmark_note": "This is a headless random-input inference benchmark. It does not measure camera display behavior or formal detection accuracy."
+  }
+]

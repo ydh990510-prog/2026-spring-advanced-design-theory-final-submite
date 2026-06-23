@@ -1,0 +1,208 @@
+[
+  {
+    "model": "RPS_PreTrained_SSD.tflite",
+    "model_path": "/home/dain/AI_assignment/models/RPS_PreTrained_SSD.tflite",
+    "backend": "tflite_runtime",
+    "file_size_bytes": 11498836,
+    "file_size_mb": 10.966144561767578,
+    "input_shape": [
+      1,
+      320,
+      320,
+      3
+    ],
+    "input_dtype": "float32",
+    "input_quantization": [
+      0.0,
+      0
+    ],
+    "output_shapes": [
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        10,
+        4
+      ],
+      [
+        1
+      ],
+      [
+        1,
+        10
+      ]
+    ],
+    "output_dtypes": [
+      "float32",
+      "float32",
+      "float32",
+      "float32"
+    ],
+    "output_quantization": [
+      [
+        0.0,
+        0
+      ],
+      [
+        0.0,
+        0
+      ],
+      [
+        0.0,
+        0
+      ],
+      [
+        0.0,
+        0
+      ]
+    ],
+    "warmup": 10,
+    "repeat": 100,
+    "mean_inference_ms": 70.0906060899797,
+    "median_inference_ms": 69.87315749938716,
+    "min_inference_ms": 69.3460309994407,
+    "max_inference_ms": 72.03970299997309,
+    "rss_mb_start": 85.5,
+    "rss_mb_end": 85.65625,
+    "rss_mb_mean": 85.63210227272727,
+    "rss_mb_peak": 85.65625,
+    "vms_mb_mean": 244.7215909090909,
+    "vms_mb_peak": 244.734375,
+    "cpu_percent_total_mean": 25.456264099365296,
+    "process_cpu_percent_mean": 99.64184098464969,
+    "soc_temp_start_c": 52.35,
+    "soc_temp_end_c": 58.95,
+    "soc_temp_mean_c": 55.5,
+    "soc_temp_max_c": 58.95,
+    "pmic_temp_mean_c": null,
+    "pmic_temp_max_c": null,
+    "arm_clock_mhz_mean": 2400.0,
+    "throttled_any": false,
+    "undervoltage_any": false,
+    "get_throttled_raw": "0x0",
+    "metrics_note": "CPU, temperature, clock, and throttling values are power-related proxy metrics, not direct watt measurements.",
+    "benchmark_note": "This is a headless random-input inference benchmark. It does not measure camera display behavior or formal detection accuracy."
+  },
+  {
+    "model": "rps_ssd_lite_fp32.tflite",
+    "model_path": "/home/dain/AI_assignment/models/rps_ssd_lite_fp32.tflite",
+    "backend": "tflite_runtime",
+    "file_size_bytes": 115876,
+    "file_size_mb": 0.11050796508789062,
+    "input_shape": [
+      1,
+      64,
+      64,
+      3
+    ],
+    "input_dtype": "float32",
+    "input_quantization": [
+      0.0,
+      0
+    ],
+    "output_shapes": [
+      [
+        1,
+        256,
+        7
+      ]
+    ],
+    "output_dtypes": [
+      "float32"
+    ],
+    "output_quantization": [
+      [
+        0.0,
+        0
+      ]
+    ],
+    "warmup": 10,
+    "repeat": 100,
+    "mean_inference_ms": 1.5608463599528477,
+    "median_inference_ms": 1.5157425004872493,
+    "min_inference_ms": 1.0970690000249306,
+    "max_inference_ms": 2.3397659988404484,
+    "rss_mb_start": 52.3125,
+    "rss_mb_end": 52.34375,
+    "rss_mb_mean": 52.328125,
+    "rss_mb_peak": 52.34375,
+    "vms_mb_mean": 499.25,
+    "vms_mb_peak": 499.25,
+    "cpu_percent_total_mean": 51.54761904761905,
+    "process_cpu_percent_mean": 196.1002794598332,
+    "soc_temp_start_c": 51.8,
+    "soc_temp_end_c": 54.0,
+    "soc_temp_mean_c": 53.15,
+    "soc_temp_max_c": 54.55,
+    "pmic_temp_mean_c": null,
+    "pmic_temp_max_c": null,
+    "arm_clock_mhz_mean": 1927.2727272727273,
+    "throttled_any": false,
+    "undervoltage_any": false,
+    "get_throttled_raw": "0x0",
+    "metrics_note": "CPU, temperature, clock, and throttling values are power-related proxy metrics, not direct watt measurements.",
+    "benchmark_note": "This is a headless random-input inference benchmark. It does not measure camera display behavior or formal detection accuracy."
+  },
+  {
+    "model": "rps_ssd_lite_int8.tflite",
+    "model_path": "/home/dain/AI_assignment/models/rps_ssd_lite_int8.tflite",
+    "backend": "tflite_runtime",
+    "file_size_bytes": 36768,
+    "file_size_mb": 0.035064697265625,
+    "input_shape": [
+      1,
+      64,
+      64,
+      3
+    ],
+    "input_dtype": "int8",
+    "input_quantization": [
+      0.003921568859368563,
+      -128
+    ],
+    "output_shapes": [
+      [
+        1,
+        256,
+        7
+      ]
+    ],
+    "output_dtypes": [
+      "int8"
+    ],
+    "output_quantization": [
+      [
+        0.02992659993469715,
+        -30
+      ]
+    ],
+    "warmup": 10,
+    "repeat": 100,
+    "mean_inference_ms": 1.5341516799708188,
+    "median_inference_ms": 1.2724289999823668,
+    "min_inference_ms": 1.2630490000447026,
+    "max_inference_ms": 2.1003969995945226,
+    "rss_mb_start": 52.5,
+    "rss_mb_end": 52.546875,
+    "rss_mb_mean": 52.51420454545455,
+    "rss_mb_peak": 52.546875,
+    "vms_mb_mean": 499.171875,
+    "vms_mb_peak": 499.171875,
+    "cpu_percent_total_mean": 23.46825396825397,
+    "process_cpu_percent_mean": 94.93747362567353,
+    "soc_temp_start_c": 51.25,
+    "soc_temp_end_c": 53.45,
+    "soc_temp_mean_c": 52.55,
+    "soc_temp_max_c": 53.45,
+    "pmic_temp_mean_c": null,
+    "pmic_temp_max_c": null,
+    "arm_clock_mhz_mean": 2072.7272727272725,
+    "throttled_any": false,
+    "undervoltage_any": false,
+    "get_throttled_raw": "0x0",
+    "metrics_note": "CPU, temperature, clock, and throttling values are power-related proxy metrics, not direct watt measurements.",
+    "benchmark_note": "This is a headless random-input inference benchmark. It does not measure camera display behavior or formal detection accuracy."
+  }
+]
